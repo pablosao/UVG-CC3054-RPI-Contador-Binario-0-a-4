@@ -44,6 +44,7 @@ Al momento de que se reinicie, o se apague y se encienda nuestra Raspberry Pi, n
 * [RPi.GPIO](https://pypi.org/project/RPi.GPIO/)
 * [Raspberry Pi B+](https://www.raspberrypi.org/products/raspberry-pi-1-model-b-plus/)
 
-## Autor
+## Autores
 
 * **Pablo Sao** - [psao](https://github.com/psao)
+* **Mirka Monzón** - [mirkanicolle](https://github.com/mirkanicolle)
