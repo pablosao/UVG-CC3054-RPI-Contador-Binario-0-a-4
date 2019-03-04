@@ -6,7 +6,7 @@ Diseñar y simular un circuito que muestre las vocales A, E, I, O, U. Un número
 
 **NOTA:** No pueden utilizarse el integrado SN74LS47 o SN74LS48 para la conversión de binario a 7 segmentos.
 
-#### Scritp Python al iniciar la Raspberry Pi
+## Scritp Python al iniciar la Raspberry Pi
 El sistema operativo que se esta utilizando en la Raspberry Pi es [Raspbian](https://www.raspberrypi.org/downloads/raspbian/), por lo que realizaremos los siguientes pasos para que nuestro script de Python pueda ejecutarse al cargar el sistema operativo.
 
 1. Ejecutamos el siguiente comando en nuestra Terminal de Raspbian, como super usuario, para copiar el archivo. O podemos crearlo y escribir el script 
@@ -34,7 +34,11 @@ El sistema operativo que se esta utilizando en la Raspberry Pi es [Raspbian](htt
 
 Al momento de que se reinicie, o se apague y se encienda nuestra Raspberry Pi, nuestro script de Python sera ejecutado al cargar el sistema operativo
 
-### Prerequisitos
+## Configuración de Pines
+
+![Pines de Raspberry Pi](/img/headers.png)
+
+## Prerequisitos
 
 * [Python 3.7](https://www.python.org/downloads/release/python-370/)
 * [RPi.GPIO](https://pypi.org/project/RPi.GPIO/)
