@@ -11,19 +11,26 @@ El sistema operativo que se esta utilizando en la Raspberry Pi es [Raspbian](htt
 
 1. Ejecutamos el siguiente comando en nuestra Terminal de Raspbian, como super usuario, para copiar el archivo. O podemos crearlo y escribir el script 
 
-> # cp _path-ubicación-archivo_/cbinario-init /etc/init.d/
+```
+# cp _path-ubicación-archivo_/cbinario-init /etc/init.d/
+```
 
 2. Se da permiso de ejecución a nuestro archivo con el siguiente comando
 
-> # chmod 755 /etc/init.d/cbinario-init
+```
+# chmod 755 /etc/init.d/cbinario-init
+```
 
 3. Para verificar si los cambios fueron realizados de forma correcta, ejecutamos nuestro archivo cbinario-init, con el siguiente comando:
 
-> # /etc/init.d/detector-init start
-
+```
+# /etc/init.d/detector-init start
+```
 4. Al estar funcionando nuestro script, procedemos a agregarlo al archivo para que se ejecute al cargar el sistema operativo
 
-> # update-rc.d detector-init defaults
+```
+# update-rc.d detector-init defaults
+```
 
 Al momento de que se reinicie, o se apague y se encienda nuestra Raspberry Pi, nuestro script de Python sera ejecutado al cargar el sistema operativo
 
