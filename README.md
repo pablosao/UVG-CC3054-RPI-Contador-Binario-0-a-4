@@ -12,7 +12,7 @@ El sistema operativo que se esta utilizando en la Raspberry Pi es [Raspbian](htt
 1. Ejecutamos el siguiente comando en nuestra Terminal de Raspbian, como super usuario, para copiar el archivo. O podemos crearlo y escribir el script 
 
 ```bash
-# cp _path-ubicación-archivo_/cbinario-init /etc/init.d/
+# cp <path-ubicación-archivo>/cbinario-init /etc/init.d/
 ```
 
 2. Se da permiso de ejecución a nuestro archivo con el siguiente comando
