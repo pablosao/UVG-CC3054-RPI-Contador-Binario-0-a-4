@@ -1,3 +1,10 @@
+'''
+@Created: 03/03/2019
+@author: Pablo Sao
+@version: 1.0
+@Description: Contador binario de 3 bits con salida en puertos de Rasberry PI B+
+'''
+
 import time
 import RPi.GPIO as GPIO
 
