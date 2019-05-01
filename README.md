@@ -24,12 +24,12 @@ El sistema operativo que se esta utilizando en la Raspberry Pi es [Raspbian](htt
 3. Para verificar si los cambios fueron realizados de forma correcta, ejecutamos nuestro archivo cbinario-init, con el siguiente comando:
 
 ```bash
-# /etc/init.d/detector-init start
+# /etc/init.d/cbinario-init start
 ```
 4. Al estar funcionando nuestro script, procedemos a agregarlo al archivo para que se ejecute al cargar el sistema operativo
 
 ```bash
-# update-rc.d detector-init defaults
+# update-rc.d cbinario-init defaults
 ```
 
 Al momento de que se reinicie, o se apague y se encienda nuestra Raspberry Pi, nuestro script de Python sera ejecutado al cargar el sistema operativo
